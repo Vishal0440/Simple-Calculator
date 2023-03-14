@@ -8,6 +8,7 @@ body{
     color: white;
     display: grid;
     place-items: center;
+    background-color: #22252d;
 }
 .name{
     color: crimson;
@@ -59,12 +60,12 @@ button{
     color: #ffffff;
 }
 .btn-equal{
-    width: 192px;
+    width: 125px;
     background-color: rgb(137, 203, 137);
     color: #ffffff;
 }
 .btn-clear{
-    width: 125px;
+    width: 60px;
     background-color: rgb(255, 0, 0);
     color: #ffffff;
 }
