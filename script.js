@@ -3,6 +3,7 @@
   let buttons = document.querySelectorAll(".btn");
   let clear = document.querySelector(".btn-clear");
   let equal = document.querySelector(".btn-equal");
+  let cut = document.querySelector(".btn-cut");
 
   buttons.forEach(function (button) {
     button.addEventListener("click", function (e) {
@@ -23,8 +24,11 @@
   clear.addEventListener("click", function (e) {
     screen.value = "";
   });
-})();
 
+  cut.addEventListener("click", function (e) {
+    screen.value = screen.value.toString().slice(0, -1);
+  });
+})();
 // Event Handler
 // function runEvent(e) {
 //   console.log(`EVENT TYPE: ${e.type}`);

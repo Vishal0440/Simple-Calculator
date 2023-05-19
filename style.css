@@ -60,12 +60,17 @@ button{
     color: #ffffff;
 }
 .btn-equal{
-    width: 125px;
+    width: 60px;
     background-color: rgb(137, 203, 137);
     color: #ffffff;
 }
 .btn-clear{
     width: 60px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(212, 55, 55);
+    color: #ffffff;
+}
+.btn-cut{
+    width: 60px;
+    background-color: rgb(212, 55, 55);
     color: #ffffff;
 }
