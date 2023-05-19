@@ -29,11 +29,3 @@
     screen.value = screen.value.toString().slice(0, -1);
   });
 })();
-// Event Handler
-// function runEvent(e) {
-//   console.log(`EVENT TYPE: ${e.type}`);
-
-//   heading.textContent = `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`;
-
-//   document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
-// }
